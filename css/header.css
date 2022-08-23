@@ -1,0 +1,58 @@
+#app-collapse-button-wrapper {
+  cursor: pointer;
+  width: fit-content;
+  display: none;
+  margin: 5px 0px 0px 10px;
+}
+
+#app-header-menu-wrapper {
+  display: flex;
+  justify-content: left;
+  padding-left: 50px;
+}
+
+.app-header-menu {
+  color: var(--app-primary-color);
+}
+
+#search-button {
+  margin-right: 15px;
+}
+
+#time-notify-wrapper > * {
+  vertical-align: middle;
+  display: inline-block;
+}
+
+#time-notify-wrapper > svg {
+  color: var(--app-primary-color);
+}
+
+#time-notify-text {
+  color: var(--app-primary-color);
+  width: 165px;
+  font-weight: bold;
+}
+
+#header-content-wrapper {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  padding-right: 15px;
+}
+
+#header-collapse-button-wrapper {
+  float: left;
+  display: inline-block;
+  margin-left: 15px;
+  cursor: pointer;
+}
+#header-collapse-button-wrapper > svg {
+  width: 24px;
+  color: var(--app-primary-color);
+  vertical-align: middle;
+}
+
+#signout-button {
+  color: black;
+}

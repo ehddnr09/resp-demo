@@ -1,0 +1,27 @@
+#app-sidebar {
+  display: none;
+  opacity: 0.8;
+  position: absolute;
+  min-height: 100vh;
+  width: 250px;
+  background-color: var(--app-primary-color);
+  animation-name: siderbar-fadein;
+  animation-duration: 0.5s;
+  z-index: 1;
+}
+
+#app-sidebar > ul {
+  list-style: none;
+  margin-top: 70px;
+  padding: 10px;
+}
+
+.side-item {
+  color: white;
+  padding: 10px;
+}
+
+.side-item:hover {
+  color: red;
+  padding: 10px;
+}
